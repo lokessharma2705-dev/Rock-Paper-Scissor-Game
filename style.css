@@ -1,0 +1,79 @@
+.game{
+    height:100px;
+    width:100%;
+    background-color:rgb(13, 12, 12);
+    justify-content: center;
+    display:flex;
+    align-items:center;    
+    font-size: 50px;
+    color: aliceblue;
+}
+#Rock{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image:url("istockphoto-1395632555-612x612.jpg") ;
+    background-size: cover;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+}
+#Paper{
+   height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image:url("WhatsApp Image 2025-11-29 at 20.22.53.jpeg") ;
+    background-size: cover;
+}
+#Scisor{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image:url("sncekbuj.jpg") ;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.score{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:30px
+    
+}
+#s1{
+  font-size: 50px;
+}
+#s2{
+  font-size: 50px;
+}
+#y{
+    margin-right: 10px;
+}
+.tapBox{
+    height:80px;
+    width:330px;
+    color:antiquewhite;
+    background-color: black;
+    font-size: 40px;
+    margin-left: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+   
+    
+}
+.c:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
